@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F9FAFF;
+
+}
+.container{
+    padding-top: 110px;
+    height: 449px;
+    border-radius: 0px 0px 0px 191.5px;
+    background: #F1F5FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    height: 130px;
+    background-image: url("../img/Group\ 11.png");
+    background-repeat: no-repeat;
+    background-size:126px 125px ;
+    background-position:center;
+    margin-bottom: 54px;
+
+}
+.div-1{
+   text-align: center;
+
+}
+h3{
+    color: #293356;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 800;
+}
+p{
+    color: #848EAD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.hero2{
+    width: 540px;
+   height: 397px;
+   border-radius: 8px;
+   background: #FFF;
+    box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
+    
+}
+.div-2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.div-2-iki{
+    display: flex;
+}
+h2{
+    margin-top: 45px;
+}
+h1{
+    margin-top: 40px;
+}
+h6{
+    margin-top: 57px;
+}
+.monthly{
+    color: #848EAD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+}
+.div-3{
+margin-top: 24px;
+
+}
+
+.range{
+    width: 400px;
+    appearance: none;
+    background: #A4F3EB;
+    border-radius: 8px;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 67px;
+    margin-right: 67px;
+    margin-bottom: 30px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width:40px;
+    height: 40px;
+    background-image: url("../img/icon-slider.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: hsl(174, 86%, 45%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.range::-webkit-slider-thumb:hover{
+   box-shadow:  hsl(171, 85%, 76%);
+}
+
+
+
+.div-4-bir{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+
+}
+.discount{
+    width: 80px;
+    height: 19px;
+    border-radius: 9.5px;
+    background: #FEEDE8;
+    text-align: center;
+}
+.discount1{
+    text-decoration: none;
+    color: #FF8D68;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 10px;
+    font-weight: 800;
+}
+.cizgi{
+width: 540px;
+height: 1px;
+flex-shrink: 0;
+background: #ECF0FB;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.div-5{
+    display: flex;
+    justify-content: space-around;
+
+}
+.satir1, .satir2, .satir3{
+    display: flex;
+    width: 174px;
+    padding: 0px 1px 1px 0px;
+    gap: 16.051px;
+    margin-top: 10px;
+}
+h5{
+    color: #848EAD;
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.btn{
+    width: 170px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 20.5px;
+    background: #293356;
+    color: #BECDFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 19px;
+}
